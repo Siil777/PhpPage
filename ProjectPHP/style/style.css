@@ -1,0 +1,58 @@
+span{
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+#move{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Bookman Old Style";
+
+
+}
+
+
+
+#joonis {
+    border-style: solid double;
+    border-width: 5px 10px;
+
+
+}
+
+#joonisCenter{
+    position: absolute;
+    left: 35%;
+}
+
+#joonisText{
+    position: relative;
+    right: 25%;
+}
+
+
+
